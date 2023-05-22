@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://security.archlinux.org/AVG-1642","20210412072948","https://web.archive.org/","web","/_static/",
+	      "1618212588");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>AVG-1642 - lib32-libjpeg6-turbo - Arch Linux</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="icon" href="/web/20210412072948im_/https://security.archlinux.org/static/favicon.ico"/>
+		<link rel="stylesheet" href="/web/20210412072948cs_/https://security.archlinux.org/static/normalize.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="/web/20210412072948cs_/https://security.archlinux.org/static/style.css" type="text/css" media="all"/>
+		<link href="/web/20210412072948/https://security.archlinux.org/advisory/feed.atom" rel="alternate" title="Recent advisories" type="application/atom+xml">
+	</head>
+	<body>
+		<div id="archnavbar">
+			<div id="logo"><a href="https://web.archive.org/web/20210412072948/https://archlinux.org/" title="Return to the main page">Arch Linux</a></div>
+			<div id="archnavbarmenu">
+				<ul id="archnavbarlist">
+					<li id="anb-home"><a href="https://web.archive.org/web/20210412072948/https://archlinux.org/" title="Arch news, packages, projects and more">Home</a></li>
+					<li id="anb-packages"><a href="https://web.archive.org/web/20210412072948/https://archlinux.org/packages/" title="Arch Package Database">Packages</a></li>
+					<li id="anb-forums"><a href="https://web.archive.org/web/20210412072948/https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+					<li id="anb-wiki"><a href="https://web.archive.org/web/20210412072948/https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+					<li id="anb-bugs"><a href="https://web.archive.org/web/20210412072948/https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+					<li id="anb-security"><a href="https://web.archive.org/web/20210412072948/https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+					<li id="anb-aur"><a href="https://web.archive.org/web/20210412072948/https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+					<li id="anb-download"><a href="https://web.archive.org/web/20210412072948/https://archlinux.org/download/" title="Get Arch Linux">Download</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="navbar">
+				<ul>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/">issues</a></li>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/advisory">advisories</a></li>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/todo">todo</a></li>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/stats">stats</a></li>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/log">log</a></li>
+					<li><a href="/web/20210412072948/https://security.archlinux.org/login" accesskey="l">login</a></li>
+				</ul>
+			</div>
+			<hr/>
+			<h1>AVG-1642 <a href="/web/20210412072948/https://security.archlinux.org/AVG-1642/log" accesskey="l">log</a></h1>
+			<table class="styled-table column-major full size">
+				<tbody>
+					<tr>
+						<td>Package</td>
+						<td class="full size wrap">
+							<span class="no-wrap"><a href="/web/20210412072948/https://security.archlinux.org/package/lib32-libjpeg6-turbo">lib32-libjpeg6-turbo</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td>Status</td>
+						<td><span class="red">Vulnerable</span></td>
+					</tr>
+					<tr>
+						<td>Severity</td>
+						<td><span class="green">Low</span></td>
+					</tr>
+					<tr>
+						<td>Type</td>
+						<td>denial of service</td>
+					</tr>
+					<tr>
+						<td>Affected</td>
+						<td>1.5.3-2</td>
+					</tr>
+					<tr>
+						<td>Fixed</td>
+						<td><span class="purple">Unknown</span></td>
+					</tr>
+					<tr>
+						<td>Current</td>
+						<td>
+							1.5.3-2 [multilib]
+						</td>
+					</tr>
+					<tr>
+						<td>Ticket</td>
+						<td><a class="button button-table button-primary" href="https://web.archive.org/web/20210412072948/https://bugs.archlinux.org/newtask?project=5&amp;product_category=13&amp;item_summary=%5Blib32-libjpeg6-turbo%5D+%5BSecurity%5D+denial+of+service+%28CVE-2021-0384%29&amp;task_severity=2&amp;detailed_desc=Summary%0A%3D%3D%3D%3D%3D%3D%3D%0A%0AThe+package+lib32-libjpeg6-turbo+is+vulnerable+to+denial+of+service+via+CVE-2021-0384.%0A%0AGuidance%0A%3D%3D%3D%3D%3D%3D%3D%3D%0A%0A%3Cgive+a+short+guidance+for+the+maintainer..+what+shall+he%2Fshe+do%3F+include+a+patch%3F+Just+upgrade%3F%3E%0A%0AReferences%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A%0Ahttps%3A%2F%2Fsecurity.archlinux.org%2FAVG-1642%0Ahttps%3A%2F%2Fsource.android.com%2Fsecurity%2Fbulletin%2Fpixel%2F2021-03-01%0Ahttps%3A%2F%2Fgithub.com%2Flibjpeg-turbo%2Flibjpeg-turbo%2Fissues%2F470%0Ahttps%3A%2F%2Fandroid.googlesource.com%2Fplatform%2Fexternal%2Flibjpeg-turbo%2F%2B%2F080c4cc6fa41ec10eed0ff8253b02065b1d746dc%0Ahttps%3A%2F%2Fgithub.com%2Flibjpeg-turbo%2Flibjpeg-turbo%2Fcommit%2F6d2e8837b440ce4d8befd805a5abc0d351028d70" , accesskey="t">Create</a></td>
+					</tr>
+					<tr>
+						<td>Created</td>
+						<td>Thu Mar  4 11:38:17 2021</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table full size">
+				<thead>
+					<tr>
+						<th>Issue</th>
+						<th>Severity</th>
+						<th>Remote</th>
+						<th>Type</th>
+						<th class="full size">Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="/web/20210412072948/https://security.archlinux.org/CVE-2021-0384">CVE-2021-0384</a></td>
+						<td><span class="green">Low</span></td>
+						<td><span class="green">No</span></td>
+						<td>Denial of service</td>
+						<td><pre>A security issue was found in libjpeg-turbo before version 2.1. Undefined behaviour, namely applying a zero offset to a null pointer in the...</pre></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html><!--
+     FILE ARCHIVED ON 07:29:48 Apr 12, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:19:19 May 22, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 161.53
+  exclusion.robots: 0.15
+  exclusion.robots.policy: 0.139
+  cdx.remote: 0.069
+  esindex: 0.011
+  LoadShardBlock: 114.49 (3)
+  PetaboxLoader3.datanode: 92.372 (4)
+  load_resource: 137.072
+  PetaboxLoader3.resolve: 86.333
+-->

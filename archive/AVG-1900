@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://security.archlinux.org/AVG-1900","20210511144954","https://web.archive.org/","web","/_static/",
+	      "1620744594");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>AVG-1900 - ceph - Arch Linux</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="icon" href="/web/20210511144954im_/https://security.archlinux.org/static/favicon.ico"/>
+		<link rel="stylesheet" href="/web/20210511144954cs_/https://security.archlinux.org/static/normalize.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="/web/20210511144954cs_/https://security.archlinux.org/static/style.css" type="text/css" media="all"/>
+		<link href="/web/20210511144954/https://security.archlinux.org/advisory/feed.atom" rel="alternate" title="Recent advisories" type="application/atom+xml">
+	</head>
+	<body>
+		<div id="archnavbar">
+			<div id="logo"><a href="https://web.archive.org/web/20210511144954/https://archlinux.org/" title="Return to the main page">Arch Linux</a></div>
+			<div id="archnavbarmenu">
+				<ul id="archnavbarlist">
+					<li id="anb-home"><a href="https://web.archive.org/web/20210511144954/https://archlinux.org/" title="Arch news, packages, projects and more">Home</a></li>
+					<li id="anb-packages"><a href="https://web.archive.org/web/20210511144954/https://archlinux.org/packages/" title="Arch Package Database">Packages</a></li>
+					<li id="anb-forums"><a href="https://web.archive.org/web/20210511144954/https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+					<li id="anb-wiki"><a href="https://web.archive.org/web/20210511144954/https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+					<li id="anb-bugs"><a href="https://web.archive.org/web/20210511144954/https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+					<li id="anb-security"><a href="https://web.archive.org/web/20210511144954/https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+					<li id="anb-aur"><a href="https://web.archive.org/web/20210511144954/https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+					<li id="anb-download"><a href="https://web.archive.org/web/20210511144954/https://archlinux.org/download/" title="Get Arch Linux">Download</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="navbar">
+				<ul>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/">issues</a></li>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/advisory">advisories</a></li>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/todo">todo</a></li>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/stats">stats</a></li>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/log">log</a></li>
+					<li><a href="/web/20210511144954/https://security.archlinux.org/login" accesskey="l">login</a></li>
+				</ul>
+			</div>
+			<hr/>
+			<h1>AVG-1900 <a href="/web/20210511144954/https://security.archlinux.org/AVG-1900/log" accesskey="l">log</a></h1>
+			<table class="styled-table column-major full size">
+				<tbody>
+					<tr>
+						<td>Package</td>
+						<td class="full size wrap">
+							<span class="no-wrap"><a href="/web/20210511144954/https://security.archlinux.org/package/ceph">ceph</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td>Status</td>
+						<td><span class="red">Vulnerable</span></td>
+					</tr>
+					<tr>
+						<td>Severity</td>
+						<td><span class="light_orange">Medium</span></td>
+					</tr>
+					<tr>
+						<td>Type</td>
+						<td>url request injection</td>
+					</tr>
+					<tr>
+						<td>Affected</td>
+						<td>15.2.10-1</td>
+					</tr>
+					<tr>
+						<td>Fixed</td>
+						<td><span class="purple">Unknown</span></td>
+					</tr>
+					<tr>
+						<td>Current</td>
+						<td>
+							15.2.10-1 [community]
+						</td>
+					</tr>
+					<tr>
+						<td>Ticket</td>
+						<td><a class="button button-table button-primary" href="https://web.archive.org/web/20210511144954/https://bugs.archlinux.org/newtask?project=5&amp;product_category=13&amp;item_summary=%5Bceph%5D+%5BSecurity%5D+url+request+injection+%28CVE-2021-3524%29&amp;task_severity=3&amp;detailed_desc=Summary%0A%3D%3D%3D%3D%3D%3D%3D%0A%0AThe+package+ceph+is+vulnerable+to+url+request+injection+via+CVE-2021-3524.%0A%0AGuidance%0A%3D%3D%3D%3D%3D%3D%3D%3D%0A%0A%3Cgive+a+short+guidance+for+the+maintainer..+what+shall+he%2Fshe+do%3F+include+a+patch%3F+Just+upgrade%3F%3E%0A%0AReferences%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A%0Ahttps%3A%2F%2Fsecurity.archlinux.org%2FAVG-1900%0Ahttps%3A%2F%2Fbugzilla.redhat.com%2Fshow_bug.cgi%3Fid%3D1951674" , accesskey="t">Create</a></td>
+					</tr>
+					<tr>
+						<td>Created</td>
+						<td>Sat May  1 10:07:13 2021</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table full size">
+				<thead>
+					<tr>
+						<th>Issue</th>
+						<th>Severity</th>
+						<th>Remote</th>
+						<th>Type</th>
+						<th class="full size">Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="/web/20210511144954/https://security.archlinux.org/CVE-2021-3524">CVE-2021-3524</a></td>
+						<td><span class="light_orange">Medium</span></td>
+						<td><span class="red">Yes</span></td>
+						<td>Url request injection</td>
+						<td><pre>A security issue was found in the Red Hat Ceph Storage RadosGW (Ceph Object Gateway). The vulnerability is related to the injection of HTTP headers via a...</pre></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html><!--
+     FILE ARCHIVED ON 14:49:54 May 11, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:20:19 May 22, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 266.532
+  exclusion.robots: 0.283
+  exclusion.robots.policy: 0.263
+  RedisCDXSource: 7.77
+  esindex: 0.011
+  LoadShardBlock: 236.778 (3)
+  PetaboxLoader3.datanode: 97.371 (4)
+  load_resource: 61.731
+  PetaboxLoader3.resolve: 29.05
+-->
